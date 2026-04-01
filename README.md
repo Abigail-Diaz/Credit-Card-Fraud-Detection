@@ -105,3 +105,81 @@ Once models have been trained and evaluated, this section will discuss:
 ### References
 
 Credit Card Fraud Detection Dataset, Kaggle (MLG-ULB): https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Abigail-Diaz/Credit-Card-Fraud-Detection.git <local-name>
+cd <local-name>
+```
+
+---
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+---
+
+### 3. Activate the Virtual Environment
+
+**Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+
+**Mac/Linux:**
+
+```bash
+source .venv/bin/activate
+```
+
+---
+
+### 4. Add Virtual Environment to `.gitignore`
+
+Create or update `.gitignore`:
+
+```bash
+.venv/
+```
+
+---
+
+### 5. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 6. Install Jupyter Notebook
+
+```bash
+pip install jupyter
+```
+
+---
+
+### 7. Run Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Then open the notebook file in your browser.
+
+---
+
+### Notes
+
+- Make sure Python 3.8+ is installed
+- Always activate the virtual environment before running the project
